@@ -111,20 +111,27 @@
                                 <rect key="frame" x="184" y="129" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDW-dO-0Ks">
+                                <rect key="frame" x="186" y="283" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-
-                            <constraint firstItem="hS9-yB-PQp" firstAttribute="bottom" secondItem="wgm-hs-J6k" secondAttribute="bottom" id="ImU-Km-U90"/>
-                            <constraint firstItem="cSi-dV-peY" firstAttribute="centerX" secondItem="hS9-yB-PQp" secondAttribute="centerX" id="VD1-eB-uLB"/>
-                            <constraint firstItem="cSi-dV-peY" firstAttribute="centerY" secondItem="hS9-yB-PQp" secondAttribute="centerY" id="Xgx-bd-vgK"/>
-                            <constraint firstItem="wgm-hs-J6k" firstAttribute="centerX" secondItem="hS9-yB-PQp" secondAttribute="centerX" id="evz-o9-yyx"/>
-
+                            <constraint firstItem="hS9-yB-PQp" firstAttribute="trailing" secondItem="BDW-dO-0Ks" secondAttribute="trailing" constant="186" id="6jz-KB-Mio"/>
                             <constraint firstItem="hS9-yB-PQp" firstAttribute="trailing" secondItem="efo-88-36I" secondAttribute="trailing" constant="184" id="Gub-zT-YY8"/>
+                            <constraint firstItem="hS9-yB-PQp" firstAttribute="bottom" secondItem="wgm-hs-J6k" secondAttribute="bottom" id="ImU-Km-U90"/>
                             <constraint firstItem="efo-88-36I" firstAttribute="top" secondItem="hS9-yB-PQp" secondAttribute="top" constant="85" id="U2J-rF-poZ"/>
+                            <constraint firstItem="cSi-dV-peY" firstAttribute="centerX" secondItem="hS9-yB-PQp" secondAttribute="centerX" id="VD1-eB-uLB"/>
+                            <constraint firstItem="cSi-dV-peY" firstAttribute="top" secondItem="BDW-dO-0Ks" secondAttribute="bottom" constant="134" id="XBa-Bi-xMI"/>
+                            <constraint firstItem="BDW-dO-0Ks" firstAttribute="top" secondItem="efo-88-36I" secondAttribute="bottom" constant="124" id="XIh-mx-qAt"/>
+                            <constraint firstItem="cSi-dV-peY" firstAttribute="centerY" secondItem="hS9-yB-PQp" secondAttribute="centerY" id="Xgx-bd-vgK"/>
+                            <constraint firstItem="BDW-dO-0Ks" firstAttribute="leading" secondItem="hS9-yB-PQp" secondAttribute="leading" constant="186" id="brm-RS-Kc6"/>
+                            <constraint firstItem="wgm-hs-J6k" firstAttribute="centerX" secondItem="hS9-yB-PQp" secondAttribute="centerX" id="evz-o9-yyx"/>
                             <constraint firstItem="efo-88-36I" firstAttribute="leading" secondItem="hS9-yB-PQp" secondAttribute="leading" constant="184" id="yQ4-dV-h6I"/>
                             <constraint firstItem="cSi-dV-peY" firstAttribute="top" secondItem="efo-88-36I" secondAttribute="bottom" constant="279" id="zV1-C6-Urb"/>
-
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hS9-yB-PQp"/>
                     </view>
