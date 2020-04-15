@@ -97,14 +97,25 @@
                                 <rect key="frame" x="184" y="438" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efo-88-36I">
+                                <rect key="frame" x="184" y="129" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="hS9-yB-PQp" firstAttribute="trailing" secondItem="efo-88-36I" secondAttribute="trailing" constant="184" id="Gub-zT-YY8"/>
+                            <constraint firstItem="efo-88-36I" firstAttribute="top" secondItem="hS9-yB-PQp" secondAttribute="top" constant="85" id="U2J-rF-poZ"/>
                             <constraint firstItem="cSi-dV-peY" firstAttribute="centerX" secondItem="hS9-yB-PQp" secondAttribute="centerX" id="VD1-eB-uLB"/>
                             <constraint firstItem="cSi-dV-peY" firstAttribute="centerY" secondItem="hS9-yB-PQp" secondAttribute="centerY" id="Xgx-bd-vgK"/>
+                            <constraint firstItem="efo-88-36I" firstAttribute="leading" secondItem="hS9-yB-PQp" secondAttribute="leading" constant="184" id="yQ4-dV-h6I"/>
+                            <constraint firstItem="cSi-dV-peY" firstAttribute="top" secondItem="efo-88-36I" secondAttribute="bottom" constant="279" id="zV1-C6-Urb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hS9-yB-PQp"/>
                     </view>
+                    <connections>
+                        <outlet property="topBtn" destination="efo-88-36I" id="6Vm-GP-70Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQy-UA-vlB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
