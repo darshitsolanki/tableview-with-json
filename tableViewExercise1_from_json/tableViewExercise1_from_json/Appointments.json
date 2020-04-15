@@ -1,0 +1,1847 @@
+{
+  "user" : {
+    "started" : "2018-12-31T21:30:00Z",
+    "dob" : "2018-12-31T21:30:00Z",
+    "country" : "SE",
+    "pnum" : "200001010210",
+    "street" : "Hacker Street",
+    "portcode" : "1234",
+    "city" : "Stockholm",
+    "devices" : [
+      {
+        "appId" : "se.ally.app",
+        "id" : "73997701-1253-4886-A2DC-0C5F96C02F1F",
+        "platformVersion" : "13.2.2",
+        "appVersion" : "1.25.22",
+        "platform" : 3
+      },
+      {
+        "appId" : "se.ally.app",
+        "id" : "E27351D1-A78E-4B96-AED3-BBB624A2AA80",
+        "platformVersion" : "13.2.2",
+        "appVersion" : "1.25.22",
+        "platform" : 3
+      }
+    ],
+    "hide" : false,
+    "id" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+    "roles" : 0,
+    "gender" : 1,
+    "email" : "testuser@testmail.com",
+    "patientId" : "3963419a-2169-4ddd-ad92-758b7f8c2eef",
+    "phone" : "0123456789",
+    "cards" : [
+      {
+        "token" : "626c6352-b53c-4367-827e-9ef3eb4d641c",
+        "id" : "cb78dd5f-70bf-4ead-8d16-afd047debad3",
+        "hide" : false,
+        "type" : 4,
+        "last" : "1111"
+      }
+    ],
+    "firstName" : "Bob",
+    "at" : "2020-01-29T05:14:02Z",
+    "lastName" : "Bobsson",
+    "postcode" : "-1",
+    "floor" : "9"
+  },
+  "appointments" : [
+    {
+      "id" : "04828de7-d280-4214-8228-4ae0b4cc77d1",
+      "appartment" : "",
+      "hide" : false,
+      "areaId" : "testArea",
+      "postcode" : "-1",
+      "case" : {
+        "anamnes" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "journal" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "status" : 1
+      },
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "time" : "2020-02-03T08:30:00Z",
+      "gateCode" : "1234",
+      "done" : false,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T07:36:11Z",
+      "requiredSkills" : [
+        "doctorVisit",
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:15:00",
+      "type" : 1,
+      "floor" : "1",
+      "country" : "SE",
+      "status" : 2
+    },
+    {
+      "floor" : "9",
+      "time" : "2020-02-02T03:30:00Z",
+      "status" : 2,
+      "country" : "SE",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "street" : "Hacker Street",
+      "city" : "Stockholm",
+      "areaId" : "testArea",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "hide" : false,
+      "type" : 3,
+      "id" : "0c6e8e24-4631-4923-85ba-db85b2a8b61f",
+      "payment" : {
+        "amount" : "210",
+        "status" : 1,
+        "id" : "0D47BE58-879B-4BE3-9998-DD618E0792A4",
+        "card" : {
+          "id" : "cb78dd5f-70bf-4ead-8d16-afd047debad3",
+          "type" : 4,
+          "last" : "1111"
+        },
+        "transactionId" : "1981529",
+        "type" : 3,
+        "currency" : "SEK",
+        "at" : "2020-01-28T09:36:23Z"
+      },
+      "done" : false,
+      "phone" : "0123456789",
+      "travel" : "00:15:00",
+      "at" : "2020-01-28T09:36:55Z",
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "postcode" : "-1",
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f"
+    },
+    {
+      "id" : "123a11af-88a5-4138-9437-19e75033eb72",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T02:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T09:07:32Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "7C5D3E1A-DB26-48AB-BD46-CF8A7613867E",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T09:07:26Z"
+      },
+      "status" : 1
+    },
+    {
+      "floor" : "9",
+      "time" : "2020-02-02T05:30:00Z",
+      "status" : 2,
+      "country" : "SE",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "street" : "Hacker Street",
+      "city" : "Stockholm",
+      "areaId" : "testArea",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "hide" : false,
+      "type" : 3,
+      "id" : "148fc266-1009-40eb-9df6-7c096cbd0531",
+      "payment" : {
+        "amount" : "210",
+        "status" : 1,
+        "id" : "21A69B9A-D4EE-4E54-B505-49BC43FC4568",
+        "transactionId" : "1981642",
+        "type" : 3,
+        "currency" : "SEK",
+        "at" : "2020-01-28T10:24:06Z"
+      },
+      "done" : false,
+      "phone" : "0123456789",
+      "travel" : "00:15:00",
+      "at" : "2020-01-28T10:24:34Z",
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "postcode" : "-1",
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f"
+    },
+    {
+      "id" : "19f20405-2375-4b76-834d-cc875fcc603b",
+      "appartment" : "",
+      "hide" : false,
+      "areaId" : "testArea",
+      "postcode" : "-1",
+      "case" : {
+        "anamnes" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "journal" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "status" : 1
+      },
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "time" : "2020-02-06T08:30:00Z",
+      "gateCode" : "1234",
+      "done" : false,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T07:36:11Z",
+      "requiredSkills" : [
+        "doctorVisit",
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:15:00",
+      "type" : 1,
+      "floor" : "1",
+      "country" : "SE",
+      "status" : 2
+    },
+    {
+      "id" : "232e2524-a6ac-48e8-928d-f1fb9efeadc9",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T04:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T09:45:21Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "5BF9D8B9-33A5-43D1-8433-FAFA5C1A4817",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T09:45:15Z"
+      },
+      "status" : 1
+    },
+    {
+      "id" : "37794939-46b4-4a1e-8d53-4c99cf1bfc3a",
+      "appartment" : "",
+      "hide" : false,
+      "areaId" : "testArea",
+      "postcode" : "-1",
+      "case" : {
+        "anamnes" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "journal" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "status" : 1
+      },
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "time" : "2020-02-04T08:30:00Z",
+      "gateCode" : "1234",
+      "done" : false,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T07:36:11Z",
+      "requiredSkills" : [
+        "doctorVisit",
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:15:00",
+      "type" : 1,
+      "floor" : "1",
+      "country" : "SE",
+      "status" : 2
+    },
+    {
+      "id" : "379694d8-d27c-4910-a4f7-52dbb44cce8f",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T04:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T09:44:21Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "7CAD3B71-3080-4BC9-B157-AE16B38D2F4F",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T09:44:15Z"
+      },
+      "status" : 1
+    },
+    {
+      "id" : "7caf6c49-faee-4da9-abc2-65d8a65dcec1",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T02:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T08:05:02Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "1E978373-5719-40E8-AD00-71BD8A355DC5",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T08:05:01Z"
+      },
+      "status" : 1
+    },
+    {
+      "id" : "869e625f-8a45-42f3-b08b-c15af751af10",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T04:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T10:05:24Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        },
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "3963419a-2169-4ddd-ad92-758b7f8c2eef"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "420",
+        "id" : "77EEFE6D-295D-4442-BDB8-5EE275251C61",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T10:05:16Z"
+      },
+      "status" : 1
+    },
+    {
+      "id" : "91c4944f-3908-4bfe-b91a-06f944a0f7b0",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T02:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T07:48:52Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "6943828F-17C8-44A4-A7FF-8403B8BC2DF4",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T07:48:48Z"
+      },
+      "status" : 1
+    },
+    {
+      "id" : "950ba68f-33c5-497f-a1a4-c12520038462",
+      "appartment" : "",
+      "hide" : false,
+      "areaId" : "testArea",
+      "postcode" : "-1",
+      "case" : {
+        "anamnes" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "journal" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "status" : 1
+      },
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "time" : "2020-02-05T08:30:00Z",
+      "gateCode" : "1234",
+      "done" : false,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T07:36:11Z",
+      "requiredSkills" : [
+        "doctorVisit",
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:15:00",
+      "type" : 1,
+      "floor" : "1",
+      "country" : "SE",
+      "status" : 2
+    },
+    {
+      "id" : "9bca9614-78af-4af3-a4cf-d70871814c52",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T02:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T09:33:35Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "9DC40B4D-3DF0-402D-9971-F51EFFB27D3A",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T09:33:30Z"
+      },
+      "status" : 1
+    },
+    {
+      "floor" : "9",
+      "time" : "2020-02-02T04:30:00Z",
+      "status" : 2,
+      "country" : "SE",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "street" : "Hacker Street",
+      "city" : "Stockholm",
+      "areaId" : "testArea",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "hide" : false,
+      "type" : 3,
+      "id" : "9f363fb6-59b6-4bcf-a91b-64711ddb3d96",
+      "payment" : {
+        "amount" : "210",
+        "status" : 1,
+        "id" : "4B10C7FC-B75A-4773-AC5E-64F2DDB6A1A6",
+        "transactionId" : "1981626",
+        "type" : 3,
+        "currency" : "SEK",
+        "at" : "2020-01-28T10:17:18Z"
+      },
+      "done" : false,
+      "phone" : "0123456789",
+      "travel" : "00:15:00",
+      "at" : "2020-01-28T10:17:45Z",
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "postcode" : "-1",
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f"
+    },
+    {
+      "floor" : "9",
+      "time" : "2020-02-02T06:30:00Z",
+      "status" : 2,
+      "country" : "SE",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "street" : "Hacker Street",
+      "city" : "Stockholm",
+      "areaId" : "testArea",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "hide" : false,
+      "type" : 3,
+      "id" : "9f8dea85-2291-4cc0-9637-b045242d4116",
+      "payment" : {
+        "amount" : "210",
+        "status" : 1,
+        "id" : "46D8EAF9-DC63-4D87-BCAB-347F358B79CB",
+        "transactionId" : "1981746",
+        "type" : 3,
+        "currency" : "SEK",
+        "at" : "2020-01-28T11:11:06Z"
+      },
+      "done" : false,
+      "phone" : "0123456789",
+      "travel" : "00:15:00",
+      "at" : "2020-01-28T11:12:00Z",
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "postcode" : "-1",
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f"
+    },
+    {
+      "id" : "afeceea9-d752-45b3-a969-c0cde0319df2",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T02:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T09:32:01Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "CA2C3457-059D-411F-932D-E917C7AA3190",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T09:31:50Z"
+      },
+      "status" : 1
+    },
+    {
+      "id" : "c1ac4d76-5041-4e74-9642-c0ca35dc402d",
+      "appartment" : "",
+      "hide" : false,
+      "areaId" : "testArea",
+      "postcode" : "-1",
+      "case" : {
+        "anamnes" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "journal" : {
+          "version" : 1,
+          "answeredQuestions" : [
+
+          ]
+        },
+        "status" : 1
+      },
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "time" : "2020-02-02T08:30:00Z",
+      "gateCode" : "1234",
+      "done" : false,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T07:36:11Z",
+      "requiredSkills" : [
+        "doctorVisit",
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:15:00",
+      "type" : 1,
+      "floor" : "1",
+      "country" : "SE",
+      "status" : 2
+    },
+    {
+      "id" : "d70fa227-4425-4ec5-af27-5fa834dfe67a",
+      "hide" : false,
+      "phone" : "0123456789",
+      "postcode" : "-1",
+      "time" : "2020-02-02T04:30:00Z",
+      "street" : "Hacker Street",
+      "done" : false,
+      "type" : 3,
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f",
+      "at" : "2020-01-28T10:04:54Z",
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "city" : "Stockholm",
+      "travel" : "00:00:15",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "floor" : "9",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "3963419a-2169-4ddd-ad92-758b7f8c2eef"
+        }
+      ],
+      "country" : "SE",
+      "payment" : {
+        "amount" : "210",
+        "id" : "17D39813-6132-4129-A554-9B7A5B67852A",
+        "currency" : "SEK",
+        "status" : 1,
+        "type" : 3,
+        "at" : "2020-01-28T10:04:47Z"
+      },
+      "status" : 1
+    },
+    {
+      "floor" : "9",
+      "time" : "2020-02-02T02:30:00Z",
+      "status" : 2,
+      "country" : "SE",
+      "approvalSignature" : {
+        "approvalStatus" : 0
+      },
+      "requiredSkills" : [
+        "vaccination"
+      ],
+      "street" : "Hacker Street",
+      "city" : "Stockholm",
+      "areaId" : "testArea",
+      "patientCheckouts" : [
+        {
+          "products" : [
+            "59945b8a-dd9d-2220-adfa-f121f8177389"
+          ],
+          "case" : {
+            "anamnes" : {
+              "version" : 0,
+              "answeredQuestions" : [
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blodsmitta",
+                    "value" : "Blodsmitta"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Ja"
+                  },
+                  "question" : {
+                    "id" : "riskgrupp_family",
+                    "value" : "Riskgrupp"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_allergi",
+                    "value" : "Allergi"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "tidigare_reaktion_family",
+                    "value" : "Tidigare reaktion?"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_blödning",
+                    "value" : "Blödning"
+                  }
+                },
+                {
+                  "answer" : {
+                    "type" : "text",
+                    "value" : "Nej"
+                  },
+                  "question" : {
+                    "id" : "family_immunförsvar",
+                    "value" : "Immunförsvar"
+                  }
+                }
+              ]
+            },
+            "status" : 0
+          },
+          "isFamilyMember" : false,
+          "patientId" : "584e57c3-0b3b-498f-88c0-5c4aaa974d88"
+        }
+      ],
+      "hide" : false,
+      "type" : 3,
+      "id" : "e15fda9e-57d9-4b7f-869c-9e3cf2980a69",
+      "payment" : {
+        "amount" : "210",
+        "status" : 1,
+        "id" : "CA3DD200-9678-4E28-8FE9-B34D68BE8648",
+        "transactionId" : "1981523",
+        "type" : 3,
+        "currency" : "SEK",
+        "at" : "2020-01-28T09:35:13Z"
+      },
+      "done" : false,
+      "phone" : "0123456789",
+      "travel" : "00:15:00",
+      "at" : "2020-01-28T09:35:53Z",
+      "personId" : "d937a1ea-45a7-4c0e-9fc4-5508bc1de49e",
+      "postcode" : "-1",
+      "userId" : "04c7b907-b0d6-48d9-9a00-a63429b2068f"
+    }
+  ]
+}
