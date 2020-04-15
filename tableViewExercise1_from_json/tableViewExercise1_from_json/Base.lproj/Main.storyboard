@@ -38,6 +38,35 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
         </scene>
+        <!--View Controller With Img View-->
+        <scene sceneID="VXk-T3-cZ9">
+            <objects>
+                <viewController id="fgn-T5-602" customClass="ViewControllerWithImgView" customModule="tableViewExercise1_from_json" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lgw-BV-phy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5lP-zA-tOE">
+                                <rect key="frame" x="20" y="94" width="374" height="718"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5lP-zA-tOE" firstAttribute="leading" secondItem="XsL-Rb-bCc" secondAttribute="leading" constant="20" id="42H-7M-x1V"/>
+                            <constraint firstItem="XsL-Rb-bCc" firstAttribute="trailing" secondItem="5lP-zA-tOE" secondAttribute="trailing" constant="20" id="99Q-Al-D3a"/>
+                            <constraint firstItem="5lP-zA-tOE" firstAttribute="top" secondItem="XsL-Rb-bCc" secondAttribute="top" constant="50" id="SCh-I3-QJa"/>
+                            <constraint firstItem="XsL-Rb-bCc" firstAttribute="bottom" secondItem="5lP-zA-tOE" secondAttribute="bottom" constant="50" id="cby-8l-ea2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XsL-Rb-bCc"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="5lP-zA-tOE" id="7Pv-D4-WkS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wf-dw-vWK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1794" y="119"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="fqb-Hl-0Lu">
             <objects>
