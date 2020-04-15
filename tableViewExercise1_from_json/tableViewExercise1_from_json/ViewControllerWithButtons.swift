@@ -11,6 +11,9 @@ import UIKit
 class ViewControllerWithButtons: UIViewController {
 
 
+    @IBAction func switchValueChanged(_ sender: UISwitch) {
+        
+    }
     @IBAction func centerButtonAction(_ sender: UIButton) {
         print("center button clicked")
     }
