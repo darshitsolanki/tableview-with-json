@@ -10,6 +10,7 @@ import UIKit
 
 class ViewControllerWithButtons: UIViewController {
 
+
     @IBAction func centerButtonAction(_ sender: UIButton) {
         print("center button clicked")
     }
@@ -17,6 +18,9 @@ class ViewControllerWithButtons: UIViewController {
         print("bottom button clicked")
     }
     
+
+    @IBOutlet weak var topBtn: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
