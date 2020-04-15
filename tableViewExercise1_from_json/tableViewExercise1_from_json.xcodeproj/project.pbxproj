@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		CB43159B2446CFE0006F0965 /* ViewControllerWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43159A2446CFE0006F0965 /* ViewControllerWithButtons.swift */; };
+
+		6BEA371C2446CF8E00D39157 /* ViewControllerWithImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA371B2446CF8D00D39157 /* ViewControllerWithImgView.swift */; };
+
 		CB5D3FB923E14D82007CC0F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D3FB823E14D82007CC0F2 /* AppDelegate.swift */; };
 		CB5D3FBB23E14D82007CC0F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D3FBA23E14D82007CC0F2 /* SceneDelegate.swift */; };
 		CB5D3FBD23E14D82007CC0F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D3FBC23E14D82007CC0F2 /* ViewController.swift */; };
@@ -41,7 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+
 		CB43159A2446CFE0006F0965 /* ViewControllerWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithButtons.swift; sourceTree = "<group>"; };
+
+		6BEA371B2446CF8D00D39157 /* ViewControllerWithImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithImgView.swift; sourceTree = "<group>"; };
+
 		CB5D3FB523E14D82007CC0F2 /* tableViewExercise1_from_json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewExercise1_from_json.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5D3FB823E14D82007CC0F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB5D3FBA23E14D82007CC0F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +128,11 @@
 				CB5D3FEA23E1711A007CC0F2 /* AppoitmentCell.swift */,
 				CB5D3FEB23E1711A007CC0F2 /* AppoitmentCell.xib */,
 				CB5D3FBE23E14D82007CC0F2 /* Main.storyboard */,
+
 				CB43159A2446CFE0006F0965 /* ViewControllerWithButtons.swift */,
+
+				6BEA371B2446CF8D00D39157 /* ViewControllerWithImgView.swift */,
+
 				CB5D3FC123E14D83007CC0F2 /* Assets.xcassets */,
 				CB5D3FC323E14D83007CC0F2 /* LaunchScreen.storyboard */,
 				CB5D3FC623E14D83007CC0F2 /* Info.plist */,
@@ -283,6 +295,7 @@
 				CB5D3FEC23E1711A007CC0F2 /* AppoitmentCell.swift in Sources */,
 				CB5D3FBD23E14D82007CC0F2 /* ViewController.swift in Sources */,
 				CBE814CB23E9375B0045E24A /* SectionHeaderView.swift in Sources */,
+				6BEA371C2446CF8E00D39157 /* ViewControllerWithImgView.swift in Sources */,
 				CB5D3FB923E14D82007CC0F2 /* AppDelegate.swift in Sources */,
 				CB43159B2446CFE0006F0965 /* ViewControllerWithButtons.swift in Sources */,
 				CB5D3FBB23E14D82007CC0F2 /* SceneDelegate.swift in Sources */,
