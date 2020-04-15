@@ -56,5 +56,30 @@
             </objects>
             <point key="canvasLocation" x="151" y="119"/>
         </scene>
+        <!--View Controller With Buttons-->
+        <scene sceneID="Gvz-2Z-L0f">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerWithButtons" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xIg-85-9OI" customClass="ViewControllerWithButtons" customModule="tableViewExercise1_from_json" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X8c-Dh-qPt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSi-dV-peY">
+                                <rect key="frame" x="184" y="438" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cSi-dV-peY" firstAttribute="centerX" secondItem="hS9-yB-PQp" secondAttribute="centerX" id="VD1-eB-uLB"/>
+                            <constraint firstItem="cSi-dV-peY" firstAttribute="centerY" secondItem="hS9-yB-PQp" secondAttribute="centerY" id="Xgx-bd-vgK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hS9-yB-PQp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQy-UA-vlB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="801"/>
+        </scene>
     </scenes>
 </document>
